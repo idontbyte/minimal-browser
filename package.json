@@ -1,0 +1,14 @@
+{
+  "name": "minimal-browser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Jamie Gilbert",
+  "license": "LGPL-3.0-or-later",
+  "devDependencies": {
+    "electron": "^28.1.1"
+  }
+}

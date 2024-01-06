@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self';">
+    <title>Jamie&apos;s Browser</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="addressBar">
+        <button id="closeButton"></button>
+        <button id="minimizeButton"></button>
+        <button id="maximizeButton"></button>
+        <button id="restoreButton"></button>
+        <input id="addressInput" name="url" type="text" value="" placeholder="url">
+    </div>
+    <webview id="foo" src="blank.html"></webview>
+    <script src="app.js"></script>
+</body>
+
+</html>

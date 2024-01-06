@@ -1,0 +1,79 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+webview {
+    display: flex;
+    flex: 1;
+    height: 100%;
+    width: 100%;
+}
+
+#addressBar {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    border-radius: 0.5;
+}
+
+#addressInput {
+    display: flex;
+    flex-grow: 1;
+    border: none;
+    font-size: 1em;
+    padding: 0.25em 0.5em;
+    background: #000;
+    color: white;
+    border-radius: 0.5em;
+    opacity: 0.5;
+    margin-right: 0.5em;
+}
+
+#closeButton {
+    background: #ff5f57;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    border: none;
+    cursor: pointer;
+    margin-right: 0.5em;
+}
+
+#minimizeButton {
+    background: #febd2e;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    border: none;
+    cursor: pointer;
+    margin-right: 0.5em;
+}
+
+#maximizeButton {
+    background: #28c840;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    border: none;
+    cursor: pointer;
+    margin-right: 0.5em;
+}
+
+#restoreButton {
+    background: #28c840;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    border: none;
+    cursor: pointer;
+    margin-right: 0.5em;
+    display: none;
+}
